@@ -2,4 +2,9 @@
     ["PROXY_PORT"]=""
     ["PROXY_FORWARDING_SECRET"]=""
     ["PROXY_SERVER_LOBBY"]=""
+    ["PROXY_DB_HOST"]=""
+    ["PROXY_DB_USER"]=""
+    ["PROXY_DB_PASSWORD"]=""
+    ["PROXY_DB_DATABASE"]=""
+    ["PROXY_PLAN_WEBPORT"]=""
 )

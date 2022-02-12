@@ -12,3 +12,8 @@
 
 # Plugins
 /plugins/bStats/
+/plugins/Plan.jar
+/plugins/plan/libraries/
+/plugins/plan/logs/
+/plugins/plan/serverConfiguration/
+/plugins/plan/ServerInfoFile.yml
