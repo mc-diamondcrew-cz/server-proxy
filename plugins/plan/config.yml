@@ -5,7 +5,7 @@
 # https://github.com/plan-player-analytics/Plan/wiki/Bukkit-Configuration
 # -----------------------------------------------------
 Server:
-    IP: 0.0.0.0
+    IP: dcmc.xephia.eu
 Network:
     Name: DiamondCrew Network
 # -----------------------------------------------------
