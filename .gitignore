@@ -1,0 +1,14 @@
+# IntelliJ
+/.idea/
+
+# Main Files
+/variables.txt
+/server.jar
+/git.sh
+
+# Logs
+/logs/*
+/*.log
+
+# Plugins
+/plugins/bStats/

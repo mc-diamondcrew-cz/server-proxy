@@ -1,0 +1,5 @@
+(
+    ["PROXY_PORT"]=""
+    ["PROXY_FORWARDING_SECRET"]=""
+    ["PROXY_SERVER_LOBBY"]=""
+)
