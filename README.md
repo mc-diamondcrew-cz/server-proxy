@@ -55,15 +55,17 @@ Now you can save the file and go to the next step.
 Using for example IntelliJ's IDEA built-in configurations system, you can work with the whole project a lot faster.
 
 ### Recommended configurations
-| Name | Path | Options          | Working Directory | Description |
-| ---  | ---  |------------------|        ---        |     ---     |
-| Start-ALL | `$PROJECT_DIR$/start.sh` | 4096 true true   | `$PROJECT_DIR$` | Downloads new language files, latest server version and starts the server with 4GBs of RAM. |
-| Start-JAR | `$PROJECT_DIR$/start.sh` | 4096 true false  | `$PROJECT_DIR$` | Downloads latest server version and starts the server with 4GBs of RAM. |
-| Start-LANG | `$PROJECT_DIR$/start.sh` | 4096 false true  | `$PROJECT_DIR$` | Downloads new language files and starts the server with 4GBs of RAM. |
-| Start | `$PROJECT_DIR$/start.sh` | 4096 false false | `$PROJECT_DIR$` | Starts the server with 4GBs of RAM. |
-| Variables-START | `$PROJECT_DIR$/variables.sh` | start | `$PROJECT_DIR$` | Replaces the variables with their configured values. |
-| Variables-STOP | `$PROJECT_DIR$/variables.sh` | stop | `$PROJECT_DIR$` | Replaces variable's values with their variable names. |
-| Language | `$PROJECT_DIR$/language.sh` | None | `$PROJECT_DIR$` | Downloads new language files. |
+| Name            | Path                         | Options          | Working Directory | Description                                                                                 |
+|-----------------|------------------------------|------------------|        ---        |---------------------------------------------------------------------------------------------|
+| Start           | `$PROJECT_DIR$/start.sh`     | 4096 false false | `$PROJECT_DIR$` | Starts the server with 4GBs of RAM.                                                         |
+| Start-ALL       | `$PROJECT_DIR$/start.sh`     | 4096 true true   | `$PROJECT_DIR$` | Downloads new language files, latest server version and starts the server with 4GBs of RAM. |
+| Start-JAR       | `$PROJECT_DIR$/start.sh`     | 4096 true false  | `$PROJECT_DIR$` | Downloads latest server version and starts the server with 4GBs of RAM.                     |
+| Start-LANG      | `$PROJECT_DIR$/start.sh`     | 4096 false true  | `$PROJECT_DIR$` | Downloads new language files and starts the server with 4GBs of RAM.                        |
+| Start-PLUGINS   | `$PROJECT_DIR$/start.sh`     | 4096 false false true | `$PROJECT_DIR$` | Downloads all required plugins and starts the server with 4GBs of RAM.                      |
+| Variables-START | `$PROJECT_DIR$/variables.sh` | start | `$PROJECT_DIR$` | Replaces the variables with their configured values.                                        |
+| Variables-STOP  | `$PROJECT_DIR$/variables.sh` | stop | `$PROJECT_DIR$` | Replaces variable's values with their variable names.                                       |
+| Language        | `$PROJECT_DIR$/language.sh`  | None | `$PROJECT_DIR$` | Downloads new language files.                                                               |
+| Plugins         | `$PROJECT_DIR$/plugins.sh`   | None | `$PROJECT_DIR$` | Downloads required plugins.                                                                 |
 
 # Working with variables
 

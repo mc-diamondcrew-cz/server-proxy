@@ -1,7 +1,8 @@
-#!/bin/sh
+#!/bin/bash
 SERVER_MEMORY=$1
 DL_JAR=$2
 DL_LANG=$3
+DL_PLUGINS=$4
 
 bash git.sh # (Used only in production to pull latest server version.)
 if [ -z "$SEVER_MEMORY" ]; then
@@ -14,6 +15,10 @@ fi
 if [ "$DL_JAR" ]; then
     echo "Downloading jarfile.."
     curl -o server.jar https://papermc.io/api/v2/projects/velocity/versions/3.1.1/builds/98/downloads/velocity-3.1.1-98.jar
+fi
+if [ "$DL_PLUGINS" ]; then
+    echo "Downloading plugins.."
+    bash plugins.sh
 fi
 bash variables.sh start # (Custom variables - passwords, ports..) Make your own and don't forget to remove them when committing.
 
