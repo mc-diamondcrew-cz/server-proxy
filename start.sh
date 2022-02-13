@@ -8,15 +8,15 @@ bash git.sh # (Used only in production to pull latest server version.)
 if [ -z "$SEVER_MEMORY" ]; then
     SERVER_MEMORY=1024
 fi
-if [ "$DL_LANG" ]; then
+if [ "$DL_LANG" == true ]; then
     echo "Running language script.."
     bash language.sh
 fi
-if [ "$DL_JAR" ]; then
+if [ "$DL_JAR"  == true ]; then
     echo "Downloading jarfile.."
     curl -o server.jar https://papermc.io/api/v2/projects/velocity/versions/3.1.1/builds/98/downloads/velocity-3.1.1-98.jar
 fi
-if [ "$DL_PLUGINS" ]; then
+if [ "$DL_PLUGINS" == true ]; then
     echo "Downloading plugins.."
     bash plugins.sh
 fi
