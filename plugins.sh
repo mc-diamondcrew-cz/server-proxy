@@ -1,6 +1,6 @@
 #!/bin/bash
 declare -A PLUGINS=(
-  [Plan.jar]=Plan-5.4-build-1516.jar
+  [Plan.jar]=Plan-5.4-build-1583.jar
 )
 
 for plugin in "${!PLUGINS[@]}"

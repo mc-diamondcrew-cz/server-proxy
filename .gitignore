@@ -17,3 +17,4 @@
 /plugins/plan/logs/
 /plugins/plan/serverConfiguration/
 /plugins/plan/ServerInfoFile.yml
+/plugins/plan/GeoLite2-Country.mmdb
