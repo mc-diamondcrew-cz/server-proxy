@@ -6,5 +6,5 @@ declare -A PLUGINS=(
 for plugin in "${!PLUGINS[@]}"
 do
   echo "Downloading plugin ${plugin}."
-  (cd plugins || return ; curl -o "$plugin" https://xephia.eu/plugins/"${PLUGINS[$plugin]}")
+  (cd plugins || return ; curl -o "$plugin" https://plugin.xephia.eu/plugins/"${PLUGINS[$plugin]}")
 done
