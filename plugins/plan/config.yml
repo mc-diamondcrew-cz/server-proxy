@@ -11,7 +11,7 @@ Network:
 # -----------------------------------------------------
 Plugin:
     Logging:
-        Locale: default
+        Locale: cs
         Create_new_locale_file_on_next_enable: false
         Dev: false
         Delete_logs_after_days: 7
